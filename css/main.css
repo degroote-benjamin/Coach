@@ -136,13 +136,32 @@ header a {
 .min-height{
   min-height: 720px;
 }
+
+iframe{
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+}
+
+.map{
+  width: 100%;
+}
 @media (min-width: 768px) {
     .indexbackfull {
         background-image: url(../img/coach-768.jpg);
     }
+
+    iframe{
+      width: 400px;
+      height: 400px;
+    }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
+  iframe {
+    width: 800px;
+    height: 600px;
+  }
 }
 
 
