@@ -110,6 +110,13 @@ header a {
     align-items: center;
 }
 
+.container{
+  margin-top: 68px;
+}
+
+.jumbotron{
+  margin-bottom: 0;
+}
 
 .navbar-nav {
     display: flex;
@@ -126,16 +133,16 @@ header a {
     margin-bottom: 0;
 }
 
+.min-height{
+  min-height: 720px;
+}
 @media (min-width: 768px) {
     .indexbackfull {
         background-image: url(../img/coach-768.jpg);
     }
 }
 
-@media (min-width:1024) {
-    .indexbackfull {
-        background-image: url(../img/coach-1024.jpg);
-    }
+@media (min-width:1024px) {
 }
 
 
